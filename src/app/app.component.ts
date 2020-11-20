@@ -10,7 +10,6 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   //indica a primeira pagina que vai ser iniciada 
-  // any eh um tipo generico
   rootPage: string = 'HomePage';
 
   pages: Array<{title: string, component: string}>;
